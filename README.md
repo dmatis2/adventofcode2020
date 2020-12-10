@@ -43,3 +43,8 @@ My solutions for Advent of code 2020
 
 - loop through the list since 26th item using `every` function and test if there are some numbers that sum up to the number using `some` function
 - loop through the list from the beginning and add adjacent numbers until value is bigger than invalid number... if sum if equal to that number, print sum of the smallest and biggest of this subarray
+
+## Day #10
+
+- sort the array and count all adjacents that sum up to max 3
+- use dynamic programming and recursion to solve combinations for smaller lists and sum them up
