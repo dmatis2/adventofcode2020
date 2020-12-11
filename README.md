@@ -48,3 +48,8 @@ My solutions for Advent of code 2020
 
 - sort the array and count all adjacents that sum up to max 3
 - use dynamic programming and recursion to solve combinations for smaller lists and sum them up
+
+## Day #11
+
+- create temp list of new seats, iterate over all seats in old view and update new list and after all seats completed update old list and check if they're same, if they're, cound # in list
+- same as part one, but need to go in every direction until find first L or #
