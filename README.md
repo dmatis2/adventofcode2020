@@ -53,3 +53,8 @@ My solutions for Advent of code 2020
 
 - create temp list of new seats, iterate over all seats in old view and update new list and after all seats completed update old list and check if they're same, if they're, cound # in list
 - same as part one, but need to go in every direction until find first L or #
+
+## Day #12
+
+- Create state object with all positions, direction, update after every action and print absolute values of n-s and e-w
+- Create waypoint state object with all positions, update after every action, if F action update ship state object and then print abs of n-s and e-w from ship state machine
