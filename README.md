@@ -68,3 +68,7 @@ My solutions for Advent of code 2020
 
 - simply transform number to binary string, change 0s and 1s in number and save them in hashmap and sum all values
 - iterate over all addressses and mask bits and if there is X, push to temporary address array two addresses with 0 and 1 where X should be placed, save them in hashmap and sum all values in that map
+
+## Day #15
+
+- store in hashmap all seen numbers and at which turn
