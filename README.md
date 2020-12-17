@@ -58,3 +58,8 @@ My solutions for Advent of code 2020
 
 - Create state object with all positions, direction, update after every action and print absolute values of n-s and e-w
 - Create waypoint state object with all positions, update after every action, if F action update ship state object and then print abs of n-s and e-w from ship state machine
+
+## Day 13
+
+- Find the higher mupliple of bus ID with has the smallest difference with actual time
+- use LCM (Least Common Multiple) to find the first timestamp to satisfy all the buses
