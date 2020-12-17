@@ -59,7 +59,12 @@ My solutions for Advent of code 2020
 - Create state object with all positions, direction, update after every action and print absolute values of n-s and e-w
 - Create waypoint state object with all positions, update after every action, if F action update ship state object and then print abs of n-s and e-w from ship state machine
 
-## Day 13
+## Day #13
 
 - Find the higher mupliple of bus ID with has the smallest difference with actual time
 - use LCM (Least Common Multiple) to find the first timestamp to satisfy all the buses
+
+## Day #14
+
+- simply transform number to binary string, change 0s and 1s in number and save them in hashmap and sum all values
+- iterate over all addressses and mask bits and if there is X, push to temporary address array two addresses with 0 and 1 where X should be placed, save them in hashmap and sum all values in that map
