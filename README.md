@@ -72,3 +72,12 @@ My solutions for Advent of code 2020
 ## Day #15
 
 - store in hashmap all seen numbers and at which turn
+
+## Day #16
+
+- not finished
+
+## Day #17
+
+- use 3D array to store active & inactive cubes, store updates in temporary 3D array and after turn store it in original array (same as day #11)
+- bruteforce
