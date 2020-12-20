@@ -81,3 +81,8 @@ My solutions for Advent of code 2020
 
 - use 3D array to store active & inactive cubes, store updates in temporary 3D array and after turn store it in original array (same as day #11)
 - bruteforce
+
+## Day #18
+
+- recursively evaluate expressions in parenthesses, substitute result into original expression, then loop through expression, evaluate _a_ _op_ _b_, substitute it until there is only 1 number
+- same as part one, just match + instead of \* in regexes
