@@ -86,3 +86,8 @@ My solutions for Advent of code 2020
 
 - recursively evaluate expressions in parenthesses, substitute result into original expression, then loop through expression, evaluate _a_ _op_ _b_, substitute it until there is only 1 number
 - same as part one, just match + instead of \* in regexes
+
+## Day #19
+
+- recursively build RegExp pattern for each rule (also use memoization to speed up)
+- seeing that only important rules are 0, 8, 11, 31 and 42 and that 8 and 11 contains a loop, we can create regex to match those loop as patterns and then simply count number of occurences of rule 42 and 31 and that rule 42 should be matched at least one more time than rule 31
