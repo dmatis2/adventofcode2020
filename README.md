@@ -91,3 +91,13 @@ My solutions for Advent of code 2020
 
 - recursively build RegExp pattern for each rule (also use memoization to speed up)
 - seeing that only important rules are 0, 8, 11, 31 and 42 and that 8 and 11 contains a loop, we can create regex to match those loop as patterns and then simply count number of occurences of rule 42 and 31 and that rule 42 should be matched at least one more time than rule 31
+
+## Day #20
+
+- get all borders with their reversed version (all possible combinations) and match each other and get IDs of those that have exactly 2 borders (corners)
+- part2 not done yet
+
+## Day #21
+
+- create a counter of ingredients mentioned, build hashmap of allergens-ingredients and filter only duplicates to ensure match correct, iterate over map until it's empty and remove all remaining duplicates, sum inverse ingredients
+- since we have hashmap of ingredient-allergens, we can simply sort and join by comma
