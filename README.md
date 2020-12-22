@@ -101,3 +101,8 @@ My solutions for Advent of code 2020
 
 - create a counter of ingredients mentioned, build hashmap of allergens-ingredients and filter only duplicates to ensure match correct, iterate over map until it's empty and remove all remaining duplicates, sum inverse ingredients
 - since we have hashmap of ingredient-allergens, we can simply sort and join by comma
+
+## Day #22
+
+- use `queue` structure to simulate playing and loop over while both have at least one card in it, then simply fold using reduce on reversed array to calculate sum of products
+- recursively simulate playing and before each round check using cache if that particular permutation of players decks were already in some round in this game
