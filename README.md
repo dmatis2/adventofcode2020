@@ -106,3 +106,8 @@ My solutions for Advent of code 2020
 
 - use `queue` structure to simulate playing and loop over while both have at least one card in it, then simply fold using reduce on reversed array to calculate sum of products
 - recursively simulate playing and before each round check using cache if that particular permutation of players decks were already in some round in this game
+
+## Day #23
+
+- using `array` to iterate over all values and `shift`, `push` to set current cup the first in the array
+- `circular linked list` with caching (`hashmap`) is used to iterate over this long sequence and cache to make it quickier
