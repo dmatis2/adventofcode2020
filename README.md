@@ -111,3 +111,8 @@ My solutions for Advent of code 2020
 
 - using `array` to iterate over all values and `shift`, `push` to set current cup the first in the array
 - `circular linked list` with caching (`hashmap`) is used to iterate over this long sequence and cache to make it quickier
+
+## Day #24
+
+- using regex to get step by step, removing it from the input line and updating x,y,z coordinates, then using Map I'm toggling between black & white, if Map has that coordinates, then it's black, white otherwise, last step is simply return the size of the Map (black tiles count)
+- again we are using temporary Map to store which black tiles will be after which day, also using Set to get all tiles which needs to be evaluated (black tiles and all of its neighbors), calculating the count of black neighbors and if the resulting tile will be black, then add it to new Map
